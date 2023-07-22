@@ -1,0 +1,4 @@
+namess.txt Илья = 1
+WarAndPeace.txt война = 46
+namess.txt Антон = 1
+WarAndPeace.txt мир = 32
