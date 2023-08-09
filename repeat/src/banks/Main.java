@@ -1,10 +1,7 @@
 package banks;
 
-import banks.service.EmptyBank;
-import banks.service.api.ERate;
-import banks.service.api.IBank;
 
-import java.math.BigDecimal;
+import banks.service.api.ERate;
 import java.util.Scanner;
 
 public class Main {
@@ -15,9 +12,8 @@ public class Main {
             System.out.println(rate.name() + " : " + rate.getDescription());
         }
         String rateNameRaw = console.nextLine();
-        ERate rateName = ERate.valueOfIgnoreCase(rateNameRaw);
 
-        IBank bank = new EmptyBank();
-        BigDecimal rate = bank.getRate(rateName);
+//        IBank bank = new EmptyBank();
+//        BigDecimal rate = bank.getRate(rateName);
     }
 }

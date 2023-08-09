@@ -3,7 +3,8 @@ package banks.service.api;
 public enum ERate {
     USD("Американский доллар"),
     EUR("Евро"),
-    RUB("Российский рубль");
+    RUB("Российский рубль"),
+    ;
 
     private final String description;
     ERate(String description) {
