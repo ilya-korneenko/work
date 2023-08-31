@@ -5,7 +5,7 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 
-public class SaveResultsInFile {
+public class    SaveResultsInFile {
     private File resultFile;
 
     public void saveResult(String nameFile, String resultSearch){

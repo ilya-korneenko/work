@@ -1,6 +1,7 @@
 package classWork.humanExample;
 
 public class Human {
+
     private String firstName;
     private String secondName;
 
